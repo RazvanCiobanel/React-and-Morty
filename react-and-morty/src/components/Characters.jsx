@@ -9,7 +9,7 @@ const Characters = () => {
   const getCharacter = useCharacters(APIPages)
 
   return (
-    <div className="container fluid"  >
+    <div className="container-fluid"  >
       <div className="row justify-content-center align-items-center">
         {getCharacter.results?.map(character =>
           <div key={character.id} className="col-2">

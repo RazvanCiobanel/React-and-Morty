@@ -9,7 +9,7 @@ const Locations = () => {
     const getLocations = useLocations(APIPages)
 
     return (
-        <div className="container fluid"  >
+        <div className="container-fluid"  >
             <div className="row justify-content-center align-items-center">
                 {getLocations.results?.map(location =>
                     <div key={location.id} className="col-2">

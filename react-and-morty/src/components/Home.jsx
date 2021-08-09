@@ -5,13 +5,10 @@ import Logo from './Logo.jpg'
 const Home = ({ setDisplayCharacters, setDisplayLocations }) => {
 
 
-
-
-
     return (
-        <div className="container">
+        <div className="container-fluid">
             <img
-                onMouseEnter={() => {
+                onClick={() => {
                     setDisplayCharacters(false);
                     setDisplayLocations(false)
                 }}
@@ -24,6 +21,7 @@ const Home = ({ setDisplayCharacters, setDisplayLocations }) => {
             </div>
             <div className="buttons">
                 <button
+                    data-testid="characters"
                     onClick={() => {
                         setDisplayCharacters(true);
                         setDisplayLocations(false)
@@ -31,6 +29,7 @@ const Home = ({ setDisplayCharacters, setDisplayLocations }) => {
                     className="my-button">Characters</button>
 
                 <button
+                    data-testid="locations"
                     onClick={() => {
                         setDisplayLocations(true);
                         setDisplayCharacters(false)
