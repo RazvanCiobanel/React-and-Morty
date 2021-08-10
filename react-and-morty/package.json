@@ -3,8 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^5.1.0",
     "react": "^16.13.1",
     "react-bootstrap": "^2.0.0-beta.4",
@@ -14,10 +12,7 @@
     "style-components": "^0.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "jest"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,6 +30,10 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/react": "^12.0.0"
+    "@testing-library/dom": "^8.1.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "jest": "^24.9.0"
   }
 }

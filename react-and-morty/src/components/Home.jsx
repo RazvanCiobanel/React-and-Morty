@@ -8,6 +8,7 @@ const Home = ({ setDisplayCharacters, setDisplayLocations }) => {
     return (
         <div className="container-fluid">
             <img
+                data-testid="logo"
                 onClick={() => {
                     setDisplayCharacters(false);
                     setDisplayLocations(false)

@@ -7,25 +7,32 @@ import Locations from "./components/Locations";
 
 
 function App() {
-  
+
   const [displayCharacters, setDisplayCharacters] = useState(false)
   const [displaylocations, setDisplayLocations] = useState(false)
 
-    
+
 
   return (
-    <div className="App">
-
-      <Home       
+    <div
+      data-testid="application"
+      className="App">
+      <div data-testid="homeComp"> 
+      <Home        
         setDisplayCharacters={setDisplayCharacters}
         setDisplayLocations={setDisplayLocations}
       />
+        </div>
 
       {displayCharacters &&
-        <Characters />}
+       <div data-testid="charComp">
+        <Characters/>
+        </div>}
 
       {displaylocations &&
-        <Locations />}
+        <div data-testid="locComp">
+        <Locations/>
+        </div>}
 
 
     </div>
