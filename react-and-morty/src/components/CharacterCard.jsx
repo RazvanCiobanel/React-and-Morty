@@ -15,6 +15,7 @@ const CharacterCard = ({ name, photo, species, location, gender, status }) => {
         <h6 className="card-title">{name}</h6>
         <img src={photo} alt="" className="img-fluid img-thumbnail" />
         <p>Species: {species}</p>
+        
         {displayMoreData &&
           <div data-testid="displayMoreData">
             <p>Gender: {gender}</p>

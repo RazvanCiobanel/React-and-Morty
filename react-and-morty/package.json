@@ -12,7 +12,8 @@
     "style-components": "^0.1.0"
   },
   "scripts": {
-    "test": "jest"
+    "test": "react-scripts test",
+    "start": "react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"
