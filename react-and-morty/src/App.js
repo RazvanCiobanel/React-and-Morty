@@ -1,17 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
-import { useCharacters, useLocations } from "./api/useData";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from "./components/Home";
+import Characters from "./components/Characters";
+import Locations from "./components/Locations";
+
 
 function App() {
-  const characters = useCharacters(1);
-  const locations = useLocations(1);
 
-  console.log("Characters data: ");
-  console.log(characters);
-  console.log("Locations data: ");
-  console.log(locations);
+  const [displayCharacters, setDisplayCharacters] = useState(false)
+  const [displaylocations, setDisplayLocations] = useState(false)
 
-  return <div className="App">Take a look at the console! (F12)</div>;
+
+
+  return (
+    <div
+      data-testid="application"
+      className="App">
+      <div data-testid="homeComp"> 
+      <Home        
+        setDisplayCharacters={setDisplayCharacters}
+        setDisplayLocations={setDisplayLocations}
+      />
+        </div>
+
+      {displayCharacters &&
+       <div data-testid="charComp">
+        <Characters/>
+        </div>}
+
+      {displaylocations &&
+        <div data-testid="locComp">
+        <Locations/>
+        </div>}
+
+
+    </div>
+  );
 }
 
 export default App;
