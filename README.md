@@ -49,10 +49,10 @@
 
 ## Screenshots
 Home page 
-![Home Page ](https://raw.github.com/Sirius1402/React-and-Morty/master/ScreenShots/homePage.jpg)
+![Home Page ](https://raw.github.com/Sirius1402/React-and-Morty/development/ScreenShots/homePage.jpg)
 
 Characters Cards and Pagination 
-![Characters Cards and Pagination ](https://raw.github.com/Sirius1402/React-and-Morty/master/ScreenShots/CharactersCardsAndPagination.jpg)
+![Characters Cards and Pagination ](https://raw.github.com/Sirius1402/React-and-Morty/development/ScreenShots/CharactersCardsAndPagination.jpg)
 
 Locations Cards and Pagination 
-![Characters Cards and Pagination ](https://raw.github.com/Sirius1402/React-and-Morty/master/ScreenShots/locationsCardsAndPagination.jpg)
+![Locations Cards and Pagination ](https://raw.github.com/Sirius1402/React-and-Morty/development/ScreenShots/locationsCardsAndPagination.jpg)
