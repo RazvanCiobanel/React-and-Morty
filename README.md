@@ -1,19 +1,5 @@
 # React and Morty
 
-## Story
-
-Do you know Rick and Morty?
-If not, start watching it!
-
-Anyways, the Rick and Morty universe is kinda big with lot of characters and locations.
-You with your friends decided that you want to make it easier to look up information about each characters and locations.
-You want to create a React app that with the use of an open-source API, shows information about everything you need.
-Your friend built the tools for the data fetching, you just need to use the data and build the app.
-
-## What are you going to learn?
-
-- Using react custom hooks
-- Using paginated data
 
 ## Tasks
 
@@ -44,12 +30,7 @@ Your friend built the tools for the data fetching, you just need to use the data
     - There are test-cases that check whether more infomration shows up from the location, when we click on a location in the list
     - All the tests pass
 
-7. [OPTIONAL] It is easier to jump between pagination pages by just scrolling down. When the user scrolls down to the bottom of the list of characters/locations, the next list of characters/locations shows up at the bottom of the list and the user can continue to scroll down.
-    - When a list of characters/locations shows up and we scoll down to the bottom of the list, new characters/locations show up at the bottom of the list
 
-## General requirements
-
-None
 
 ## Hints
 
@@ -62,11 +43,16 @@ None
 
 ## Background materials
 
-- <i class="far fa-exclamation"></i> [Custom hooks](https://reactjs.org/docs/hooks-custom.html)
-- <i class="far fa-book-open"></i> [What is JSON?](https://en.wikipedia.org/wiki/JSON)
-- <i class="far fa-book-open"></i> [What is pagination for?](https://www.interaction-design.org/literature/article/split-the-contents-of-a-website-with-the-pagination-design-pattern)
+- Custom hooks `useLocations` and `useCharacters` were created by CodeCool
 - <i class="far fa-book-open"></i> [Characters JSON example](https://rickandmortyapi.com/documentation/#character)
 - <i class="far fa-book-open"></i> [Locations JSON example](https://rickandmortyapi.com/documentation/#location)
-- <i class="far fa-exclamation"></i> [Jest](https://jestjs.io/docs/tutorial-react)
-- <i class="far fa-exclamation"></i> [Mocking modules with jest](https://jestjs.io/docs/en/mock-functions#mocking-modules)
-- <i class="far fa-exclamation"></i> [Mocking the data fetching with a module](https://www.npmjs.com/package/axios-mock-adapter)
+
+## Screenshots
+Home page 
+![Home Page ](https://raw.github.com/Sirius1402/React-and-Morty/development/ScreenShots/homePage.jpg)
+
+Characters Cards and Pagination 
+![Characters Cards and Pagination ](https://raw.github.com/Sirius1402/React-and-Morty/development/ScreenShots/CharactersCardsAndPagination.jpg)
+
+Locations Cards and Pagination 
+![Locations Cards and Pagination ](https://raw.github.com/Sirius1402/React-and-Morty/development/ScreenShots/locationsCardsAndPagination.jpg)
