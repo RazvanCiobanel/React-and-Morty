@@ -49,4 +49,10 @@
 
 ## Screenshots
 Home page 
-![Home Page ](https://raw.github.com/Sirius1402/Book-a-table/master/Screenshots/homepage1.jpg)
+![Home Page ](https://raw.github.com/Sirius1402/React-and-Morty/master/ScreenShots/homePage.jpg)
+
+Characters Cards and Pagination 
+![Characters Cards and Pagination ](https://raw.github.com/Sirius1402/React-and-Morty/master/ScreenShots/CharactersCardsAndPagination.jpg)
+
+Locations Cards and Pagination 
+![Characters Cards and Pagination ](https://raw.github.com/Sirius1402/React-and-Morty/master/ScreenShots/locationsCardsAndPagination.jpg)
